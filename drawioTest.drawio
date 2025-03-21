@@ -1,56 +1,92 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="Process Flow">
+  <diagram name="Salesforce User Setup Process">
     <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         
         <!-- Notification Step -->
-        <mxCell id="2" value="Notification: Email from HR or Jira Ticket" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2" value="Notification: Email from HR or Jira Ticket" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="100" width="200" height="50" as="geometry"/>
         </mxCell>
         
         <!-- Determine User Model Step -->
-        <mxCell id="3" value="Determine User Model" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3" value="Determine User Model" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="200" width="200" height="50" as="geometry"/>
         </mxCell>
         
         <!-- Create Salesforce Account Step -->
-        <mxCell id="4" value="Create Salesforce Account" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4" value="Create Salesforce Account" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="200" height="50" as="geometry"/>
         </mxCell>
         
         <!-- Sub-steps for Creating Salesforce Account -->
-        <mxCell id="5" value="Search for Shell User" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5" value="Search for Shell User" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="300" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="6" value="Change User License and Profile" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6" value="Change User License and Profile" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="400" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="7" value="Select Role and Save" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7" value="Select Role and Save" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="500" width="200" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="8" value="Verify Details" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8" value="Verify Details" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="600" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Additional Information" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="700" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Permission Set Assignments" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="800" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Public Group Memberships" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="900" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Queue Membership" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1000" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Default Opportunity and Account Teams" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1100" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Managed Packages" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1200" width="200" height="50" as="geometry"/>
         </mxCell>
         
         <!-- Connect the steps -->
-        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="3" target="4">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="4" target="5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="5" target="6">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="6" target="7">
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="6" target="7">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="7" target="8">
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="13" target="14">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
