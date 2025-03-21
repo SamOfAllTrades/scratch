@@ -15,7 +15,7 @@
           <mxGeometry x="100" y="200" width="200" height="50" as="geometry"/>
         </mxCell>
         
-        <!-- Create Salesforce Account Step -->
+ Create Salesforce Account Step -->
         <mxCell id="4" value="Create Salesforce Account" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="200" height="50" as="geometry"/>
         </mxCell>
@@ -51,8 +51,8 @@
         <mxCell id="14" value="Managed Packages" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1200" width="200" height="50" as="geometry"/>
         </mxCell>
-        
-        <!-- Connect the steps -->
+        <!-- Part 1 End -->
+	    <!-- Connect the steps -->
         <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -89,6 +89,7 @@
         <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="13" target="14">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
+        <!-- Part 2 End -->   
         <!-- Connect the steps -->
         <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="14" target="15">
           <mxGeometry relative="1" as="geometry"/>
@@ -99,7 +100,4 @@
         <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="16" target="17">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+        <!-- Part 3 End -->
