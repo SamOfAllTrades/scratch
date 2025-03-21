@@ -1,4 +1,4 @@
-<mxfile>
+<mxfile host="app.diagrams.net">
   <diagram name="Process Flow">
     <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         </mxCell>
         
         <!-- Create Salesforce Account Step -->
-       Cell id="4" value="Create Salesforce Account" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4" value="Create Salesforce Account" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="200" height="50" as="geometry"/>
         </mxCell>
         
