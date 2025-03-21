@@ -89,16 +89,6 @@
         <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="13" target="14">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="15" value="Datasite Sales Page" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1300" width="200" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="16" value="Create Contact Record" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1400" width="200" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="17" value="Billing Test Site" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1500" width="200" height="50" as="geometry"/>
-        </mxCell>
-        
         <!-- Connect the steps -->
         <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;" edge="1" parent="1" source="14" target="15">
           <mxGeometry relative="1" as="geometry"/>
