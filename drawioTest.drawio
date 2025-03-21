@@ -15,7 +15,7 @@
           <mxGeometry x="100" y="200" width="200" height="50" as="geometry"/>
         </mxCell>
         
- Create Salesforce Account Step -->
+		 <!-- Create Salesforce Account Step -->
         <mxCell id="4" value="Create Salesforce Account" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="300" width="200" height="50" as="geometry"/>
         </mxCell>
