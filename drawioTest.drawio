@@ -1,53 +1,40 @@
-<mxfile host="app.diagrams.net">
-  <diagram name="Flashy Email System">
-    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- Exchange Online -->
-        <mxCell id="2" value="Exchange Online" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="50" width="120" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Exchange On-premises -->
-        <mxCell id="3" value="Exchange On-premises" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="120" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Distribution Group -->
-        <mxCell id="4" value="Distribution Group" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="250" width="120" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Relay Service -->
-        <mxCell id="5" value="Relay Service (Postfix)" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="350" width="120" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Sendgrid -->
-        <mxCell id="6" value="Sendgrid" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="450" width="120" height="60" as="geometry"/>
-        </mxCell>
-
-        <!-- Connections -->
-        <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#82b366;strokeWidth=2;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#d6b656;strokeWidth=2;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="4" target="5">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-
-        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-
-      </root>
-    </mxGraphModel>
+<lucidchart>
+  <diagram>
+    <!-- Notification Step -->
+    <shape id="1" type="rectangle" x="100" y="100" width="200" height="50">
+      <text>Notification: Email from HR or Jira Ticket</text>
+    </shape>
+    
+    <!-- Determine User Model Step -->
+    <shape id="2" type="rectangle" x="100" y="200" width="200" height="50">
+      <text>Determine User Model</text>
+    </shape>
+    
+    <!-- Create Salesforce Account Step -->
+    <shape id="3" type="rectangle" x="100" y="300" width="200" height="50">
+      <text>Create Salesforce Account</text>
+    </shape>
+    
+    <!-- Sub-steps for Creating Salesforce Account -->
+    <shape id="4" type="rectangle" x="350" y="300" width="200" height="50">
+      <text>Search for Shell User</text>
+    </shape>
+    <shape id="5" type="rectangle" x="350" y="400" width="200" height="50">
+      <text>Change User License and Profile</text>
+    </shape>
+    <shape id="6" type="rectangle" x="350" y="500" width="200" height="50">
+      <text>Select Role and Save</text>
+    </shape>
+    <shape id="7" type="rectangle" x="350" y="600" width="200" height="50">
+      <text>Verify Details</text>
+    </shape>
+    
+    <!-- Connect the steps -->
+    <line id="8" startShape="1" endShape="2"/>
+    <line id="9" startShape="2" endShape="3"/>
+    <line id="10" startShape="3" endShape="4"/>
+    <line id="11" startShape="4" endShape="5"/>
+    <line id="12" startShape="5" endShape="6"/>
+    <line id="13" startShape="6" endShape="7"/>
   </diagram>
-</mxfile>
+</lucidchart>
